@@ -10,4 +10,4 @@ A rotating circular container with a centered box, using CSS keyframes and linea
 ### 🎯 Hover Effects
 Interactive hover-based transitions.
 
-![Hover Demo](hover-effects/hover-demo.gif)
+![Hover Demo](hover-button/hover-demo.gif)
