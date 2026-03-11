@@ -1,1 +1,40 @@
+* {
+    background:black ;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius:50%;
+    animation-name: Orbit;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    border: 2px solid rgb(82, 236, 44);
+}
+.container:hover{
+    animation-play-state: paused;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(82, 236, 44) ;
+    border-radius: 50%;
+}
+@keyframes Orbit{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+    
+}
 
