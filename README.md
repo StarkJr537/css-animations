@@ -11,3 +11,8 @@ A rotating circular container with a centered box, using CSS keyframes and linea
 Interactive hover-based transitions.
 
 ![Hover Demo](hover-button/hover-demo.gif)
+
+### Bounce Effect
+bouncing ball on platform animation using keyframes
+![Bounce Demo](bounce-ball/bounce-demo.gif)
+
